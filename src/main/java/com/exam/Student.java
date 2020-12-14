@@ -10,6 +10,8 @@ import lombok.Data;
 @Data
 public class Student implements Serializable{
 
+	private static final long serialVersionUID = 3597204356054734419L;
+	
 	public enum Gender{
 		MALE, FEMALE, OTHER
 	}
